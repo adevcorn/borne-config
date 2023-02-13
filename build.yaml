@@ -4,4 +4,4 @@ include:
   - board: "borne"
     shield: "borne_right"
   - board: "borne"
-    sheield: "settings_reset"
+    shield: "settings_reset"
