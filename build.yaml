@@ -3,5 +3,3 @@ include:
     shield: "borne_left"
   - board: "borne"
     shield: "borne_right"
-  - board: "borne"
-    shield: "settings_reset"
