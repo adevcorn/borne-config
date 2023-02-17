@@ -1,4 +1,4 @@
-*
+/*
 * Copyright (c) 2020 The ZMK Contributors
 
  * SPDX-License-Identifier: MIT
@@ -7,6 +7,14 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+
+#define COMBO(NAME, BINDINGS, KEYPOS) \
+    combo_##NAME {              \
+    timeout-ms = <50>;          \
+    bindings = <BINDINGS>;      \
+    key-positions = <KEYPOS>;   \
+    layers = <0>;               \
+    };
 
 /
 {
@@ -23,11 +31,9 @@
         };
         combos {
             compatible = "zmk,combos";
-            combo_esc {
-                timeout-ms = <50>;
-                key-positions = <6 7>;
-                bindings = <&kp ESC>;
-            };
+            COMBO(esc, &kp ESC, 6 7)
+            COMBO(bspc, &kp BSPC, 7 8)
+            COMBO(ret, &kp RET, 8 8)
         };
         keymap {
                 compatible = "zmk,keymap";
