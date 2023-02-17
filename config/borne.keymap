@@ -1,6 +1,6 @@
-/*
- * Copyright (c) 2020 The ZMK Contributors
- *
+*
+* Copyright (c) 2020 The ZMK Contributors
+
  * SPDX-License-Identifier: MIT
  */
 
@@ -28,7 +28,16 @@
                 key-positions = <6 7>;
                 bindings = <&kp ESC>;
             };
-
+            combo_bksp {
+                timeout-ms = <50>;
+                key-positions = <7 8>;
+                bindings = <&kp BSPC>;
+            };
+            combo_ret {
+                timeout-ms = <50>;
+                key-positions = <8 9>;
+                bindings = <&kp RET>;
+            };
         };
         keymap {
                 compatible = "zmk,keymap";
