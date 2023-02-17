@@ -9,13 +9,12 @@
 #include <dt-bindings/zmk/bt.h>
 
 #define COMBO(NAME, BINDINGS, KEYPOS) \
-    combo_##NAME {
-    timeout-ms = <50>;
-    bindings = <BINDINGS>;
-    key-positions = <KEYPOS>;
-    layers = <0>;
-    };
-    a
+    combo_##NAME {              \
+    timeout-ms = <50>;          \
+    bindings = <BINDINGS>;      \
+    key-positions = <KEYPOS>;   \
+    layers = <0>;               \
+    };                          \
 
 /
 {
@@ -34,7 +33,7 @@
             compatible = "zmk,combos";
             COMBO(esc, &kp ESC, 6 7)
             COMBO(bspc, &kp BSPC, 7 8)
-            COMBO(ret, &kp RET, 8 9)
+            COMBO(ret, &kp RET, 8 8)
 
         };
         keymap {
