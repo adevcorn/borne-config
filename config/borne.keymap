@@ -25,7 +25,7 @@
             compatible = "zmk,combos";
             combo_esc {
                 timeout-ms = <50>;
-                key-positions = <10 11>;
+                key-positions = <6 7>;
                 bindings = <&kp ESC>;
             };
 
