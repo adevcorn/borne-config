@@ -32,8 +32,6 @@
         combos {
             compatible = "zmk,combos";
             COMBO(esc, &kp ESC, 6 7)
-            COMBO(bspc, &kp BSPC, 7 8)
-            COMBO(ret, &kp RET, 8 8)
 
         };
         keymap {
