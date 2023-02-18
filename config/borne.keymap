@@ -35,8 +35,8 @@
             COMBO(bspc, &kp BSPC, 6 7)
             COMBO(ret, &kp RET, 7 8)
             COMBO(esc, &kp ESC, 3 4)
-            COMBO(bspc, &kp BSPC, 5 6)
-            COMBO(ret, &kp RET, 6 7)
+            COMBO(bspc, &kp BSPC, 2 3)
+            COMBO(ret, &kp RET, 1 2)
         };
         keymap {
                 compatible = "zmk,keymap";
