@@ -38,6 +38,10 @@
             COMBO(esc_l, &kp ESC, 3 4)
             COMBO(bspc_l, &kp BSPC, 2 3)
             COMBO(ret_l, &kp RET, 1 2)
+            COMBO(paran_l, &kp LS(N8), 22 23)
+            COMBO(mausving_l, &kp RA(N7), 21 22)
+            COMBO(bracket_l, &kp RA(N8), 23 24)
+            COMBO(aligator_l, &kp NUBS, 23 24)
         };
         keymap {
                 compatible = "zmk,keymap";
@@ -56,33 +60,18 @@
                         >;
                 };
                 nav_layer {
-// -----------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------
 // |BTCLR|      |  @  |  ~   |     |   | PGUP | LEFT |  UP  | RGT | DEL  |
 // | BT1 | CTRL | ALT | SHFT |     |   | PDWN | LEFT | DOWN | RGT | BKSP |
 // | BT2 |      |     |      |     |   |      | ENT  | HOME | END |      |
 //              |     |      |     |   |      |      |      |
                         bindings = <
-   &bt BT_CLR   &none           &kp RA(N2)          &kp TILDE       &none           &kp PG_UP    &kp LC(LEFT)       &kp UP   &kp LC(RIGHT)  &kp DEL
+   &bt BT_CLR   &none           &kp RA(N2)      &kp TILDE       &none           &kp PG_UP    &kp LC(LEFT)       &kp UP   &kp LC(RIGHT)  &kp DEL
    &bt BT_SEL 0 &kp LCTRL       &kp RALT        &kp LSHFT       &none           &kp PG_DN    &kp LEFT           &kp DOWN &kp RIGHT      &kp BSPC
    &bt BT_SEL 1 &none           &none           &none           &none           &none        &kp RET            &kp HOME &kp END        &none
                                 &none           &none           &none           &none        &none              &none
                         >;
                 };
-
-//                 sym_layer {
-// // -----------------------------------------------------------------------------------------
-// // |  !  |  @   |  #  |  $   |  %  |   |     |  1  |  2  |  3  |     |
-// // |     | CTLR | ALT | SHFT |     |   |     |  4  |  5  |  6  |  0  |
-// // |     |      |     |      |     |   |     |  7  |  8  |  9  |     |
-// //              | GUI |      | SPC |   |     |     |     |
-//                         bindings = <
-//    &kp EXCL     &kp AT          &kp HASH        &kp DLLR        &kp PRCNT       &none   &kp N1  &kp N2  &kp N3  &kp FSLH
-//    &none        &kp LCTRL       &kp RALT        &kp LSHFT       &none           &none   &kp N4  &kp N5  &kp N6  &kp N0
-//    &none        &none           &none           &none           &none           &none   &kp N7  &kp N8  &kp N9  &kp MINUS
-//                                 &kp LGUI        &none           &kp SPACE       &none   &none   &none
-//                         >;
-//                 };
-
                 num_layer {
 // -----------------------------------------------------------------------------------------
 // |  <  |  [  |  ]  |   >  |  :  |   |     |  1  |  2  |  3  |     |
