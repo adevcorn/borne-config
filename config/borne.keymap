@@ -39,7 +39,7 @@
             COMBO(smcmma_l, &kp LS(COMMA), 2 3)
             COMBO(dblqt_l, &kp LS(N2), 1 2)
             COMBO(paran_l, &kp LS(N8), 22 23)
-            COMBO(mausving_l, &kp RA(N7), 21 22)
+            COMBO(mausving_l, &kp LALT(RA(N7), 21 22))
             COMBO(bracket_l, &kp RA(N8), 23 24)
             COMBO(aligator_l, &kp NUBS, 20 21)
         };
