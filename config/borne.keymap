@@ -41,7 +41,7 @@
             COMBO(paran_l, &kp LS(N8), 22 23)
             COMBO(mausving_l, &kp LS(LA(N8)), 21 22)
             COMBO(bracket_l, &kp RA(N8), 23 24)
-            COMBO(aligator_l, &kp NUBS, 20 21)
+            COMBO(aligator_l, &kp LT, 20 21)
         };
         keymap {
                 compatible = "zmk,keymap";
