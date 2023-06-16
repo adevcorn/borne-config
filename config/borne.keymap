@@ -66,7 +66,7 @@
 // | BT2 |      |     |      |     |   |      | ENT  | HOME | END |      |
 //              |     |      |     |   |      |      |      |
                         bindings = <
-   &bt BT_CLR   &none           &kp RA(N2)      &kp LS(GRAVE)   &none           &kp PG_UP    &kp LC(LEFT)       &kp UP   &kp LC(RIGHT)  &kp DEL
+   &bt BT_CLR   &none           &kp RA(N2)      &kp RA(RBKT)   &none           &kp PG_UP    &kp LC(LEFT)       &kp UP   &kp LC(RIGHT)  &kp DEL
    &bt BT_SEL 0 &kp LCTRL       &kp RALT        &kp LSHFT       &none           &kp PG_DN    &kp LEFT           &kp DOWN &kp RIGHT      &kp BSPC
    &bt BT_SEL 1 &none           &none           &none           &none           &none        &kp RET            &kp HOME &kp END        &none
                                 &none           &none           &none           &none        &none              &none
@@ -79,7 +79,7 @@
 // |  *  | "|" |  ?  |   !  |  =  |   |     |  7  |  8  |  9  |     |
 //             |     | SHFT | RET |   |     |     |     |
                         bindings = <
-    &kp GRAVE            &kp RA(N8)    &kp RA(N9)      &kp LS(NON_US_BSLH)     &kp LS(DOT)     &none  &kp N1  &kp N2  &kp N3  &kp FSLH
+    &kp GRAVE            &kp RA(N8)    &kp RA(N9)      &kp LS(GRAVE)           &kp LS(DOT)     &none  &kp N1  &kp N2  &kp N3  &kp FSLH
     &kp LS(LA(N8))       &kp LS(N8)    &kp LS(N9)      &kp LS(LA(N9))          &kp LS(COMMA)   &none  &kp N4  &kp N5  &kp N6  &kp N0
     &kp LS(BSLH)         &kp RA(N7)    &kp LS(MINUS)   &kp LS(N1)              &kp LS(N0)      &none  &kp N7  &kp N8  &kp N9  &kp MINUS
                                                 &none           &kp LSHFT               &kp RET         &none  &none   &none
