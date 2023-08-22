@@ -35,7 +35,7 @@
             COMBO(esc_r, &kp ESC, 5 6)
             COMBO(bspc_r, &kp BSPC, 6 7)
             COMBO(ret_r, &kp RET, 7 8)
-            COMBO(bslh_l, &kp LS(BSLH), 3 4)
+            COMBO(bslh_l, &kp BACKSLASH, 3 4)
             COMBO(smcmma_l, &kp LS(COMMA), 2 3)
             COMBO(dblqt_l, &kp LS(N2), 1 2)
             COMBO(paran_l, &kp LS(N8), 22 23)
