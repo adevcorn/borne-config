@@ -55,7 +55,7 @@
 //             |  X  | NAV |  SPC |   | TAB | SYM  | CDE |
                         bindings = <
    &kp LBKT     &kp SEMICOLON   &mt COMMA DOT   &kp P           &kp Y           &kp F           &kp G           &kp C           &kp R         &kp L
-   &hm LGUI A   &hm LCTRL O     &hm LALT E      &hm LSHFT U     &kp I           &kp D           &hm LSHIFT H    &hm LALT T      &hm LCTRL N   &hm LGUI S
+   &hm LGUI A   &hm LCTRL O     &hm LALT E      &hm LSHFT U     &kp I           &kp D           &hm LSHIFT H    &hm RALT T      &hm LCTRL N   &hm LGUI S
    &kp APOS     &kp Q           &kp J           &kp K           &kp X           &kp B           &kp M           &kp W           &kp V         &kp Z
                                 &kp X           &mo 1           &lt 3 SPACE     &lt 2 TAB       &mo 1           &none
                         >;
