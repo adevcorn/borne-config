@@ -42,7 +42,7 @@
             COMBO(mausving_l, &kp LS(LA(N8)), 21 22)
             COMBO(bracket_l, &kp RA(N8), 23 24)
             COMBO(aligator_l, &kp GRAVE, 20 21)
-			COMBO(caps_t, &kt CAPSLOCK, 26 27)
+			COMBO(caps_t, &kp CAPSLOCK, 26 27)
         };
         keymap {
                 compatible = "zmk,keymap";
