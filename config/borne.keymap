@@ -81,7 +81,7 @@
 //             |     | SHFT | RET |   |     |     |     |
                         bindings = <
     &kp GRAVE            &kp RA(N8)    &kp RA(N9)      &kp LS(GRAVE)           &kp LS(DOT)     &none  &kp N1  &kp N2  &kp N3  &kp FSLH
-    &kp LS(RA(N8))       &kp LS(N8)    &kp LS(N9)      &kp LS(LA(N9))          &kp LS(COMMA)   &none  &kp N4  &kp N5  &kp N6  &kp N0
+    &kp LS(RA(N8))       &kp LS(N8)    &kp LS(N9)      &kp RA(LS(N9))          &kp LS(COMMA)   &none  &kp N4  &kp N5  &kp N6  &kp N0
     &kp LS(BSLH)         &kp RA(N7)    &kp RA(N4)   &kp LS(N1)              &kp LS(N0)      &none  &kp N7  &kp N8  &kp N9  &kp MINUS
                                                 &none           &kp LSHFT               &kp RET         &none  &none   &none
                         >;
